@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JAVASCRIPT</title>
+</head>
+<body>
+    <h1>A QUOI SERT JAVASCRIPT ?</h1>
+    <div id="page_1">
+        <h2>Javascript sert à modifier dynamiquement le contenu d'une page</h2>
+        <h3>1 => En modifiant la structure du HTML</h3>
+        <p>Le langage permet de créer un élément HTML qui n'existe pas</p>
+        <p>Il permet de récupérer un ou plusieurs éléments HTML existants pour les modifier ou les supprimer</p>
+        <h5>EXEMPLE</h5>
+        <button id="btnAdd">FAIRE APPARAITRE UN PARAGRAPHE</button>
+        <br><button id="btnChange">MODIFIER LE PARAGRAPHE SUIVANT</button>
+        <p>LE PARAGRAPHE A MODIFIER</p>
+        <h3>2 => En modifiant le style d'un élément</h3>
+        <h5>EXEMPLE</h5>
+        <button id="btnStyle">MODIFIER LE PARAGRAPHE SUIVANT</button>
+        <p>LE PARAGRAPHE QUI DEVIENT ROUGE</p>
+        <button id="page2Btn">AFFICHER LA SUITE</button>
+    </div>
+    <div id="page_2">
+        <h2>Javascript sert à vérifier le contenu d'une formulaire</h2>
+        <p>taper un code à 6 chiffre</p>
+        <p>si le code est invalide une alerte se déclanchera</p>
+        <p>si le code est valide un message important apparaitra</p>
+        <input type="number" name="password" id="password">
+        <button id="validBtn">VALIDER</button>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
